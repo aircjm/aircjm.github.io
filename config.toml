@@ -1,4 +1,3 @@
-#baseURL = "https://ljc.space/"
 baseURL ="/"
 relativeURLs = true
 languageCode = "zh-CN"
