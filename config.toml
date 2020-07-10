@@ -18,6 +18,11 @@ defaultContentLanguage = "zh"
   description = "我的随笔"
 
 [menu]
+  [[menu.main]]             # config your menu              # 配置目录
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    url = "/"
   [[menu.main]]
     identifier = "archives"
     name = "归档"
