@@ -1,7 +1,12 @@
-baseURL = "https://aircjm.github.io/"
+#baseURL = "https://ljc.space/"
+baseURL ="/"
+relativeURLs = true
 languageCode = "zh-CN"
 title = "辰燃的博客"
 theme = "maupassant"
+publishDir ="./public"
+hasCJKLanguage = true
+defaultContentLanguage = "zh"
 
 [author]
   name = "辰燃"
