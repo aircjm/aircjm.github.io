@@ -1,0 +1,42 @@
+baseURL ="/"
+relativeURLs = true
+languageCode = "zh-CN"
+title = "辰燃的博客"
+theme = "maupassant"
+publishDir ="./public"
+hasCJKLanguage = true
+defaultContentLanguage = "zh"
+
+[author]
+  name = "辰燃"
+
+[params]
+  author = "辰燃"
+  subtitle = "还没有想好"
+  keywords = "golang,java,博客"
+  description = "我的随笔"
+
+[menu]
+  [[menu.main]]             # config your menu              # 配置目录
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+
+[[params.links]]
+  title = "我的github"
+  name = "github"
+  url = "http://github.com/aircjm"
+
+
+  

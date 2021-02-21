@@ -1,0 +1,5 @@
+tasks:
+  - init: 'echo "TODO: Replace with init/build command"'
+    command: "image:   file: .gitpod.Dockerfile  tasks:   - command: 'hugo server
+      --baseUrl $(gp url 1313) --appendPort=false'  ports:   - port:
+      1313     onOpen: open-preview"
